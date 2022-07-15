@@ -1,0 +1,1 @@
+t('sweet_pic.jpg', 6)
