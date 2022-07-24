@@ -45,7 +45,7 @@ real_val=value-comp_value
 if(value<0 or value>2):
     print("Invalid Number entered")
 elif(real_val==0):
-  print(f"{all[value]} \n Computer Choose: {all[comp_value]} /n Its Draw")
+  print(f"Your Choose: {all[value]} \n Computer Choose: {all[comp_value]} \n Its Draw")
 elif((real_val==-1 and value!=1 and value!=0) or(real_val==2 and value!=2) or real_val==1 or real_val==-2):
   print(f"{all[value]} \n Computer Choose: {all[comp_value]} /n You Win")
 else:
