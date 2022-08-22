@@ -1,6 +1,6 @@
 
-client__id="f811b3d4ee594bb090aef34351179b34"
-client__screte="8f8f29c1e2664bcbafa45ccabd51ce4c"
+client__id="client__id"
+client__screte="client__screte"
 
 import requests
 import spotipy
