@@ -7,9 +7,9 @@
 # driver=webdriver.Chrome(executable_path=chrome_driver_path)
 # driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3217891650&f_LF=f_AL&geoId=100665265&keywords=python%20developer&location=Kathmandu%2C%20B%C4%81gmat%C4%AB%2C%20Nepal&refresh=true")
 
-# EMAIL="regishshrestha@gmail.com"
-# PASSWORD="Satungal1234"
-# PHONE="9841517999"
+# EMAIL="EMAIL"
+# PASSWORD="PASSWORD"
+# PHONE="NUMBER"
 
 # sign_up=driver.find_element("class name","nav__button-secondary")
 # sign_up.click()
