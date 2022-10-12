@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <title>Login</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>Login</h1>
-      <form method="POST" action="{{ url_for('login') }}">
+{% extends "bootstrap/base.html" %} {% import "bootstrap/wtf.html" as wtf%} {%
+block title %}Login{% endblock%} {% block content %}
+<div class="container">
+  <h1>Login</h1>
+  <!--<form method="POST" action="{{ url_for('login') }}">
         {{ form.csrf_token }}
         <p>
           {{ form.email.label }}<br />
@@ -25,7 +20,6 @@
 			{% endfor%}
         </p>
         {{form.submit}}
-      </form>
-    </div>
-  </body>
-</html>
+      </form>-->{{wtf.quick_form(form,novalidate=True)}}
+</div>
+{%endblock%}
