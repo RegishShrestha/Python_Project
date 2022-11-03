@@ -9,3 +9,7 @@ Rule:
 
 Password Generator 
 Helps Users to generate a random password
+
+
+Snake Game
+This old 19's nokia snake game
