@@ -13,3 +13,8 @@ Helps Users to generate a random password
 
 Snake Game
 This old 19's nokia snake game
+
+
+Birthday Wisher 
+Sends mail to the people on their birthday
+
