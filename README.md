@@ -21,5 +21,6 @@ Birthday Wisher
 Sends mail to the people on their birthday
 
 Rock paper scissor  
-Play your game
+Play your games
+
 
